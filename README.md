@@ -25,8 +25,8 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
 
 ### Links
 
-- Solution URL: [Solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add Live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://github.com/khatias/skilled-elearning-landing-page)
+- Live Site URL: [Live site URL here](https://khatias.github.io/skilled-elearning-landing-page/)
 
 ## My process
 
