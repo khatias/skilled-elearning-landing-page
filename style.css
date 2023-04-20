@@ -1,0 +1,361 @@
+
+body{
+    display:flex; 
+    width:100%;
+    height:100vh;
+    flex-direction:column;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    overflow-x:hidden; 
+    
+  }
+  
+  
+  header{
+    display:flex;
+    padding:16px;
+    justify-content:space-between;
+    margin-bottom: 22px;
+  } 
+  
+  .logo{
+    width:89px;
+  } 
+  .logo-div{
+    display:flex;
+    align-items:center;
+  }
+  
+    .header-button{
+    font-size:16px;
+    color:white; 
+    font-weight:700;
+    line-height:28px;
+    background-color:#13183F;
+    width:140px;
+    height:48px;
+    border:0px;
+    border-radius:28px;
+  }
+  
+  main{
+    padding:16px;
+  }
+  
+  .budget{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+  }
+  
+   h1{
+    font-size:40px;
+    color:#13183F;
+    font-weight:800;
+    line-height:50.4px;
+  }
+  
+  .budget-description{
+    font-size:16px;
+    color:#83869A;
+    font-weight:500;
+    line-height:26px;
+    width:343px;
+  }
+  
+  .budget-button{
+    font-size:16px;
+    color:white; 
+    font-weight:700;
+    line-height:28px;
+    background-image: linear-gradient(#FF6F48, #F02AA6);
+    width:167px;
+    height:56px;
+    border:0px;
+    border-radius:28px;
+  }
+  
+  .img-mobile{
+    max-width:100%;
+  }
+    
+  .card-conteiner{
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+    padding-bottom: 80px;
+  }
+
+  .card-header{
+    width:343px;
+    height:120px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 10px;
+    margin-bottom:40px;
+  }
+  
+  h2{
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  padding:24px 28px 32px 28px;
+  }
+  
+  .card{
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    width:343px;
+    height:259px;
+    border-radius:10px;    
+  }
+  
+  .card-text-conteiner{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    padding: 24px 28px 32px 29px;
+    height:171px;
+    width:286px;
+  }
+  
+  .icon{
+    margin-top:-28px; 
+    margin-left:28px;
+    width:56px;
+  }
+  
+  h3{
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25px;
+  color: #13183F;
+  }
+  
+  .card-description{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color:#83869A;
+  }
+
+  .card-button{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #F74780;
+  padding: 0px;
+  background: none;
+  width:104px;
+  border:0px;  
+  }
+  
+  footer{
+    background: #13183F;
+    padding:16px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    align-content:Center;
+    height:120px;
+  }
+  
+  .footer-button{
+    font-size:16px;
+    color:white; 
+    font-weight:700;
+    line-height:28px;
+    background: linear-gradient(#4851FF, #F02AA6);
+    width:140px;
+    height:48px;
+    border:0px;
+    border-radius:28px;
+  }
+  
+  
+   @media screen and (min-width:768px){
+
+     body{
+       background-image:url(images/image-hero-tablet.png);
+       background-repeat: no-repeat;
+       background-position:top -30px right -250px;
+       background-size:640px 640px;   
+     }
+
+     header{
+       padding-top:24px;
+       padding-left:40px;
+       padding-right:40px;
+       margin-bottom:83px;
+     }
+
+     main{
+      padding:0px;
+     }
+
+     .budget{
+       width:50%;
+       padding-left:40px;
+     }
+
+     .picture{
+       display:none;
+     }
+
+     .card-conteiner{
+       display:flex;
+       flex-direction:row;
+       flex-wrap:wrap;
+       margin-top:210px;
+       background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+       padding-left:39px;
+       row-gap:56px;
+       column-gap:10px;
+       padding-bottom:86px;  
+     }
+
+     .card-header{
+       width:340px;
+     }
+     
+     .card{
+       width:340px;
+     }
+      
+     .card-header{
+       height:259px;  
+     }
+     
+     h2{
+       padding:56px 21px 139px 32px;
+     }
+
+    }
+      @media screen and (min-width:1440px){
+
+      body{
+       background-image:url("images/image-hero-desktop.png");
+       background-repeat: no-repeat;
+       background-position:top -152px right -310px;
+       background-size:991px 931px;  
+        }
+        
+        header{
+          padding-left:165px;
+          padding-right:165px;
+          margin-bottom:156px;
+        }
+        
+        .logo{
+        width:114px;
+        } 
+        
+        .header-button{
+          height: 56px;
+          width: 167px;
+          font-size:18px;
+          cursor:pointer;
+        }
+
+        .header-button:hover{
+          background: #666CA3;
+        }
+        
+        .budget{
+          padding-left:167px;
+          gap:0px;
+        }
+        
+        h1{
+          font-size:56px;
+          line-height:70.56px;
+          margin-bottom:29px;
+        }
+        
+        .budget-description{
+          font-size:18px;
+          width:445px;
+          margin-bottom:40px;
+          line-height:28px;
+        }
+        
+        .budget-button{
+          font-size:18px;
+          width:167px;
+          height:63px;
+          border-radius:31.5px;
+        }
+        
+        .budget-button:hover{
+          background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+          cursor:pointer;
+        }
+        
+        .card-conteiner{
+          margin-top:250px;
+          padding-left: 165px;
+          row-gap: 80px;
+          column-gap: 30px;
+          padding-bottom: 140px;
+          padding-right: 165px;
+
+        }
+
+        .card-text-conteiner{
+          height:218px;
+        }
+
+        .card-header{
+          width:350px;
+          height:322px;
+        }
+
+        h2{
+          font-size:32px;
+          line-height: 40px;
+        }
+        .card{
+          width:350px;
+          height:322px;
+        }
+        
+        h3{
+          font-size:24px;
+          line-height: 30.24px;
+        }
+
+        .card-description{
+          font-size:18px;
+          line-height:28px;
+        }
+
+        .card-button{
+          cursor:pointer;
+        }
+
+        footer{
+          padding-left:165px;
+          padding-right:165px;
+        }
+
+        .footer-button{
+          height: 56px;
+          width: 167px;
+          border-radius: 28px;
+          font-size:18px;
+          line-height:28px;
+          cursor:pointer;
+        }
+        
+        .footer-button:hover{
+          background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+        }
+        }
+     
+  
+  
+  
