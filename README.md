@@ -13,7 +13,7 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
   - [What I learned](#what-i-learned)
 
 
-*
+
 
 ## Overview
 
